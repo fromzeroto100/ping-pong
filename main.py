@@ -1,6 +1,7 @@
 from turtle import Turtle, Screen
 from paddle import Paddle
 from ball import Gameball
+import time
 
 
 screen = Screen()
@@ -27,7 +28,9 @@ screen.onkey(l_paddle.go_down, "s")
 game_on = True
 
 while game_on:
+    time.sleep(0.1)
     screen.update()
+
     ball.move()
 
     
