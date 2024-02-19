@@ -8,3 +8,9 @@ class Gameball(Turtle):
         self.penup()
         self.goto(position)
 
+
+
+    def move(self):
+        new_x = self.xcor() + 10
+        new_y = self.ycor() + 10
+        self.goto(new_x, new_y)
