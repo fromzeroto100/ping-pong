@@ -1,5 +1,6 @@
 from turtle import Turtle, Screen
 from paddle import Paddle
+from ball import Gameball
 
 
 screen = Screen()
@@ -11,6 +12,8 @@ screen.tracer(0)
 
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
+
+ball1 = Gameball((0, 0 ))
 
 
 
