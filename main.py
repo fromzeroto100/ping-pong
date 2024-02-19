@@ -13,7 +13,7 @@ screen.tracer(0)
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 
-ball1 = Gameball((0, 0 ))
+ball = Gameball((0, 0))
 
 
 
