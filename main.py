@@ -1,6 +1,7 @@
 from turtle import Turtle, Screen
 from paddle import Paddle
 from ball import Gameball
+from scoreboard import Scoreboard
 import time
 
 
@@ -15,6 +16,7 @@ r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 
 ball = Gameball((0, 0))
+Scoreboard = Scoreboard()
 
 
 
