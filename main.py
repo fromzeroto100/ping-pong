@@ -16,7 +16,7 @@ r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 
 ball = Gameball((0, 0))
-Scoreboard = Scoreboard()
+scoreboard = Scoreboard()
 
 
 
@@ -46,10 +46,12 @@ while game_on:
 
     if ball.xcor() > 380:
         ball.reset_position()
+        scoreboard.l_point()
 
     
     if ball.xcor() < -380:
-        ball.reset_position()   
+        ball.reset_position()
+        scoreboard.r_point()  
 
 
 
