@@ -9,6 +9,7 @@ class Gameball(Turtle):
         self.goto(position)
         self.x_move = 10
         self.y_move = 10
+        self.move_speed = 0.1
 
 
 
@@ -28,5 +29,5 @@ class Gameball(Turtle):
         self.goto(0, 0)
         self.bounce_x()
 
-        
+         
 
